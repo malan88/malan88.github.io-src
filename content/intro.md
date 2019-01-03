@@ -5,6 +5,7 @@ Authors: malan
 Summary: In which malan introduces himself to his fictitious audience and rambles about FOSS and proprietary standards.
 
 <br>
+## In which malan introduces himself.
 This is literally my first post on a blog since I was a teenager.
 
 I’ll start by introducing myself. I’ll remain somewhat anonymous, going by
@@ -30,10 +31,10 @@ So anyway, last night I counted on my fingers seven recent endeavors that could
 serve as blog posts and decided to make one. It’ll hopefully be useful for 
 
 1. documenting my technological endeavors,
-2. serve as an outlet for a rather pent up need to talk about various things
-   (this blog will also end up with political and philosophical and
+2. serving as an outlet for a rather pent-up need to talk about various things
+   (this blog will also end up with political, philosophical, and
    artistical-critical [is that a thing?] posts), and
-3. maybe one day serve as a semi-portfolio (personal tech blogs are all the
+3. maybe one day serving as a semi-portfolio (personal tech blogs are all the
    rage, to which the existence of GitHub Pages should attest).
 
 As you will hopefully have recognized by now, I am a pedant. I am obsessed with
@@ -44,6 +45,7 @@ eventually elaborate. Open source technology is another high brow subject in my
 opinion. Don’t know why that is, but it is. So perhaps I’ll just express a few
 of my feelings on FOSS to get the ball rolling.
 
+## In which malan attempts to define “standards” and does a really mediocre job of it totally unbecoming of his training as a philosopher.
 One of the fundamental things in this world that I believe in, something that I
 believe stimulates growth above and beyone nearly anything government or society
 can do, is _standardization_. We might also call it platformization. The basic
@@ -111,6 +113,7 @@ transfer of wealth to commerce in artificially low tolls is enormous and has
 fueled much of the growth of the twentieth century (beside that fueled by
 advancements in technology, globalization, etc.).
 
+## In which malan criticizes the FAANG’s
 Now consider Google. It’s a platform, and a fairly standard one. Amazon is too.
 By standard I mean that it’s a platform (product, specification, etc.) used by
 the majority (if not super-majority) of people in the economy. We’re living in a
@@ -149,7 +152,7 @@ Amazon does this too: a company like Overstock.com can’t exploit Amazon’s
 marketplace to leverage their own marketplace (though it’s difficult to imagine
 how they would; also: they do sell gift cards on Amazon), and Amazon is
 increasingly in competition with its Amazon Marketplace users (see, for
-instance, [Amazon Basics][2].
+instance, [Amazon Basics][2]).
 
 These aren’t the only reason proprietary standard platforms are bad. A bigger
 example is Microsoft Windows. While Windows may not be the dominant OS anymore
@@ -159,14 +162,15 @@ and supercomputers) it does still dominate the desktop pc market. Windows, I can
 assure you, through my daily use, is a shithole. It literally [breaks itself
 through updates all the time][3]. What’s worse is that Windows obfuscates and
 hides its internals from its users, which prevents those users from finding easy
-help to fix. Linux, by contrast [frequently breaks due to user error, but you
+help to fix it. Linux, by contrast [frequently breaks due to user error, but you
 can easily find help fixing it][4] (linked is a question literally asked today
-and fixed, as well, on unix.stackexchange.com).
+and fixed, as well, on unix.se).
 
-Now I’ve mentioned Linux, I think it’s time I explain how all this talk about
-standardization applies to FOSS.
+## In which malan discusses FOSS as it relates to standards.
+Now that I’ve mentioned Linux, I think it’s time I explain how all this talk
+about standardization applies to FOSS.
 
-Linux is a _FOSS_ standard platform, in contrast to the properietary standard
+Linux is a _FOSS_ standard platform, in contrast to the proprietary standard
 platforms already mentioned. No, Linux is not a standard for desktop pc end
 users. It is a standard for serious computing: [it is used as a server by
 nearly every company in the world][5]. This is because, unlike Windows, when it
@@ -174,9 +178,11 @@ breaks _you generally don’t have to reinstall it_. Furthermore, _it rarely
 breaks itself_. Even Arch Linux, contrary to the memes, rarely breaks. But the
 real key to Linux’s dominance are twofold:
 
-1. It is designed by a community of people who recognize that people build
+1. It is maintained by a community of people who recognize that its users build
    serious applications with it and require it to be rock solid and
-   standardized.
+   standardized (it mostly follows the [Linux Standard Base][16] standard, which
+   is mostly a superset of [POSIX][17]; yes, I pulled this from a [stackoverflow
+   question][18]).
 2. If the standardized nature of its system isn’t good enough for you, _it lets
    you do with it as you will_. 
 
@@ -187,9 +193,9 @@ they did they created a large ecosystem of Free and Open Source Software that is
 standardized and well-documented. The boon to the software economy that this has
 produced is immeasurable.
 
-Take Git. We can leave Linux behind, since everyone knows how great the Linux
-success story is. But Git never ceases to amaze me. Linus Torvalds hacked it
-together over the course of two or so months in 2005 with the help of [Junio
+Now take Git. We can leave Linux behind, since everyone knows how great the
+Linux success story is. But Git never ceases to amaze me. Linus Torvalds hacked
+it together over the course of two or so months in 2005 with the help of [Junio
 Hamano][7] when the proprietary system they’d been using (BitKeeper) pulled
 their permission. It has since become a Standard FOSS Platform. We can perhaps,
 rather, use the word _tool_. Git is a Standard FOSS Tool. And it is a miracle
@@ -206,8 +212,8 @@ tool. To quote [Sinclair Target][8]:
 Git has assumed this level of dominance for several reasons:
 
 1. It is ingeniously designed, representing a major leap over the previous
-   bazaar of version control software, and you can realize this by reading from
-   [the profusion of old timers saying it][9]
+   bazaar of version control software: you can see this by reading from [the
+   profusion of old timers saying it][9].
 2. _IT IS FOSS_.
 
 The fact that it is FOSS is key. It is because of the governance nature of FOSS
@@ -215,6 +221,9 @@ projects that developers _trust_ it. It will not release broken updates, it will
 not start stuffing your repository with ads, and it will not incorporate
 money-grabbing features. It’s sole purpose is to help you do your job, and be
 good at it.
+
+Of course, there are bad FOSS projects, which is why it’s generally better to
+use a FOSS project that’s big.
 
 What’s fantastic about the position of Git, not just for its maintainers, but
 for all of us, is that by having a large, standardized, and open source tool,
@@ -225,24 +234,21 @@ set it up the other day, learning how to use (yet another standard FOSS tool)
 
 I have fallen in love with FOSS software because of this quality: it may not be
 the easiest stuff to use, but I can trust it, practically with my life, because
-it is maintained by dedicated volunteers who care about it not breaking people’s
-work, supported by a plethora of developers who use it [and thus can help other
-developers who use it][11], and because it allows its users to do some pretty
-interesting things with it.
+it is maintained by dedicated volunteers who care about it not breaking
+anybody’s work, supported by a plethora of developers who use it [and thus can
+help other developers who use it][11], and because it allows its users to do
+some pretty interesting things with it.
 
 Some of my Standard FOSS Tools right now:
 
-- Arch Linux with i3 and urxvt (Linux is a standard, though i3 and urxvt
-  probably aren’t)
-- Neovim with which I am literally typing this (based on, of course, Vim, based
-  on, of course, Vi; the standard is, of course, [The Zen of Vi][12]).
+- Linux (in the form of Arch Linux)
+- Vi (in the form of Neovim)
 - Git
 - Python
-- Flask
-- MariaDB (an implementation of MySQL)
+- MySQL (in the form of MariaDB)
 
-I have literally added to this toolchain the past two weeks: GnuPG (an
-implementation of PGP).
+I have literally added in the past three days GnuPG (an implementation of the
+PGP standard) to this toolchain.
 
 Even Markdown, the format I’m writing this in, which is far from _standardized_,
 though it is a standard, amazes me with its utility. (It is an open
@@ -253,7 +259,8 @@ There is something absolutely amazing about the age, pedigree, and commonality
 of these tools. Notice I said pedigree. Many of these tools have such storied
 histories, have had so many thousands of programmers hacking away at them, some
 of them being lovingly reimplemented many times, that they have accreted
-incredible utility. Let me quote a bit from Neal’s extended essay:
+incredible utility. Let me quote a bit from Neal Stephenson’s extended essay
+[_In the Beginning... Was the Command Line_][19]:
 
 > The file systems of Unix machines all have the same general structure. On your
 > flimsy operating systems, you can create directories (folders) and give them
@@ -325,6 +332,7 @@ MariaDB, from my list, is a fascinating case because it’s not at all a standar
 but it’s _identical_ to a standard, MySQL. I’ve been using it because I distrust
 Oracle.
 
+## In which malan describes a really bad experience on a proprietary standard platform and concludes that something should be done about it.
 Which brings me back to the proprietary standards.
 
 When I was setting up `pass` recently, I generated two `gpg` keys as well. In
@@ -342,12 +350,12 @@ a pretty vicious bloat-remover) I decided to use a pre-installed Google package
 to scan the QR code: Google Lens.
 
 Except, Google Lens doesn’t think you’ll use the QR scanner for anything except
-a Google search. When I scanned my key QR code, there was no option to copy the
-text to a clipboard. So I had to go looking for something else, and settled on
-Trend Micro’s QR code scanner after looking through the Play Store for a while
-and seeing nothing but the general crap on offer there (ad-bloated mediocre
-pieces of software written in 10 days and rarely updated so the author can
-generate revenue). Then, I had to paste the text from the scan into a text
+a Google search. When I scanned my key’s QR code, there was no option to copy
+the text to a clipboard. So I had to go looking for something else, and settled
+on Trend Micro’s QR code scanner after looking through the Play Store for a
+while and seeing nothing but the general crap on offer there (ad-bloated
+mediocre pieces of software written in 10 days and rarely updated so the author
+can generate revenue). Then, I had to paste the text from the scan into a text
 editor so I could combine it (I had had to split my key across several QR codes
 because it was too much data). So I had to find a text editor. The same problem
 was presented as before: there aren’t any good text editors for the phone. I
@@ -407,3 +415,7 @@ Don’t even get me started on the telecoms.
 [13]: https://security.stackexchange.com/questions/51771/where-do-you-store-your-personal-private-gpg-key
 [14]: https://en.wikipedia.org/wiki/Winesburg,_Ohio
 [15]: https://joinmastodon.org/
+[16]: https://en.wikipedia.org/wiki/Linux_Standard_Base
+[17]: https://en.wikipedia.org/wiki/POSIX
+[18]: https://stackoverflow.com/questions/8333631/linux-posix-compliance-list
+[19]: https://en.wikipedia.org/wiki/In_the_Beginning..._Was_the_Command_Line
