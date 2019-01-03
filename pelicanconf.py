@@ -20,10 +20,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = ()
+#LINKS = ()
 
 # Social widget
-SOCIAL = ()
+#SOCIAL = ()
 
 DEFAULT_PAGINATION = 5
 
