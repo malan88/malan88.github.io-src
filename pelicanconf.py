@@ -3,8 +3,11 @@
 from __future__ import unicode_literals
 
 AUTHOR = "malan"
-SITENAME = "thoughts"
+SITENAME = "malan"
+SITETAGLINE = "Thoughts & Works"
 SITEURL = ''
+
+THEME = 'cebong'
 
 PATH = 'content'
 
