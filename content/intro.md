@@ -1,6 +1,6 @@
 Title: FOSS as High Culture
 Date: 2018-01-02 15:45
-Tags: first, introduction
+Tags: first, introduction, FOSS, PoliPhi, culture
 Authors: malan
 Summary: In which malan introduces himself to his fictitious audience and rambles about FOSS and proprietary standards.
 
