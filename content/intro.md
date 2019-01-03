@@ -234,7 +234,7 @@ Some of my Standard FOSS Tools right now:
 - Arch Linux with i3 and urxvt (Linux is a standard, though i3 and urxvt
   probably aren’t)
 - Neovim with which I am literally typing this (based on, of course, Vim, based
-  on, of course, Vi; the standard is, of course, [The Zen of Vi][12].
+  on, of course, Vi; the standard is, of course, [The Zen of Vi][12]).
 - Git
 - Python
 - Flask
@@ -261,7 +261,7 @@ incredible utility. Let me quote a bit from Neal’s extended essay:
 > with the single character “`/`” and it always contains the same top level
 > directories:
 >
->    /usr /etc /var /bin /proc /boot /home /root /sbin /dev /lib /tmp
+>    `/usr /etc /var /bin /proc /boot /home /root /sbin /dev /lib /tmp`
 >
 > Each of these directories typically has its own distinct structure of
 > subdirectories. Note the obsessive use of abbreviations and avoidance of
@@ -384,7 +384,7 @@ eliminated without causing serious economic problems, and yet, through
 profit-hungry motives proceeds to degrade its own product, _it must be
 institutionalized_. It must be _standardized_. Of the FAANGs, several, in
 particular Google, Amazon, and Facebook, are nearing the point where their
-continuous degredation is becoming so grave a problem that it will soon be time
+continuous degradation is becoming so grave a problem that it will soon be time
 to nationalize them. Or at the very least regulate them as heavily as we once
 regulated Ma Bell.
 
