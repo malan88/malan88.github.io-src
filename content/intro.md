@@ -4,6 +4,7 @@ Tags: first, introduction, FOSS, PoliPhi, culture
 Authors: malan
 Summary: In which malan introduces himself to his fictitious audience and rambles about FOSS and proprietary standards.
 
+<br>
 This is literally my first post on a blog since I was a teenager.
 
 I’ll start by introducing myself. I’ll remain somewhat anonymous, going by
