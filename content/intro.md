@@ -1,11 +1,11 @@
 Title: FOSS as High Culture
-Date: 2018-01-02 15:45
+Date: 2019-01-02 15:45
 Tags: first, introduction, FOSS, PoliPhi, culture
 Authors: malan
-Summary: In which malan introduces himself to his fictitious audience and rambles about FOSS and proprietary standards.
+Summary: In which malan introduces himself to his fictitious audience and
+         rambles about FOSS and proprietary standards.
 
-<br>
-## In which malan introduces himself.
+## In which malan introduces himself and kvetches.
 This is literally my first post on a blog since I was a teenager.
 
 I’ll start by introducing myself. I’ll remain somewhat anonymous, going by
@@ -45,7 +45,8 @@ eventually elaborate. Open source technology is another high brow subject in my
 opinion. Don’t know why that is, but it is. So perhaps I’ll just express a few
 of my feelings on FOSS to get the ball rolling.
 
-## In which malan attempts to define “standards” and does a really mediocre job of it totally unbecoming of his training as a philosopher.
+## In which malan attempts to define “standards” and does a mediocre job of it
+## totally unbecoming of his training as a philosopher.
 One of the fundamental things in this world that I believe in, something that I
 believe stimulates growth above and beyone nearly anything government or society
 can do, is _standardization_. We might also call it platformization. The basic
@@ -332,7 +333,8 @@ MariaDB, from my list, is a fascinating case because it’s not at all a standar
 but it’s _identical_ to a standard, MySQL. I’ve been using it because I distrust
 Oracle.
 
-## In which malan describes a really bad experience on a proprietary standard platform and concludes that something should be done about it.
+## In which malan describes a particularly awful experience on a proprietary
+## standard platform and concludes that something should be done about it.
 Which brings me back to the proprietary standards.
 
 When I was setting up `pass` recently, I generated two `gpg` keys as well. In

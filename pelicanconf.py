@@ -1,13 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from markdown import extensions
 
 AUTHOR = "malan"
 SITENAME = "malan"
 SITETAGLINE = "Thoughts & Works"
 SITEURL = ''
-
-THEME = 'cebong'
 
 PATH = 'content'
 
@@ -32,3 +31,9 @@ DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.extra':{},
+        'markdown.extensions.admonition':{}
+    }
+}
