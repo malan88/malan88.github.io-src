@@ -30,6 +30,7 @@ So here is an _actual_ explanation, for people who have common sense, of the
 nature of the forms that one must print for the annual W2 headache:
 
 ## In which malan describes the nature of the various W2 copies.
+
 !!! warning
     ***I am not an accountant or a tax expert. This is not official advice and
     may be wrong. It is simply how I understand it.***
